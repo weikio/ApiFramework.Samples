@@ -1,8 +1,7 @@
-using ApisAndEndpoints;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace MyApiFrameworkQuickStart
+namespace ApisAndEndpoints
 {
     public class Program
     {

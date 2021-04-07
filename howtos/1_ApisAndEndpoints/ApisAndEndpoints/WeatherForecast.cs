@@ -1,6 +1,6 @@
 using System;
 
-namespace MyApiFrameworkQuickStart
+namespace ApisAndEndpoints
 {
     public class WeatherForecast
     {

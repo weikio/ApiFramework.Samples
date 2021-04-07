@@ -1,4 +1,4 @@
-﻿namespace MyApiFrameworkQuickStart
+﻿namespace ApisAndEndpoints
 {
     public class CalculatorApi
     {
