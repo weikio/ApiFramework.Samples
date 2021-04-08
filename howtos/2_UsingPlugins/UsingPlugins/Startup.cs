@@ -29,11 +29,22 @@ namespace UsingPlugins
                 .AddSqlServer("/adventures",
                     new SqlServerOptions()
                     {
+                        Tables = new[] { "Product*" },
                         ConnectionString =
                             "Server=tcp:adafydevtestdb001.database.windows.net,1433;User ID=docs;Password=3h1@*6PXrldU4F95;Integrated Security=false;Initial Catalog=adafyweikiodevtestdb001;"
                     })
                 .AddOpenApi("/petstore",
-                    new ApiOptions() { SpecificationUrl = "https://petstore.swagger.io/v2/swagger.json" });
+                    new ApiOptions()
+                    {
+                        SpecificationUrl = "https://petstore.swagger.io/v2/swagger.json", 
+                        IncludeHttpMethods = new[] { "GET" }
+                    })
+                .AddOpenApi("/petstore_writeonly",
+                    new ApiOptions()
+                    {
+                        SpecificationUrl = "https://petstore.swagger.io/v2/swagger.json", 
+                        ExcludeHttpMethods = new[] { "GET" }
+                    });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
