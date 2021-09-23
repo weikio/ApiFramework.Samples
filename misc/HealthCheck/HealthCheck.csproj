@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Weikio.ApiFramework.AspNetCore.StarterKit" Version="1.0.0-alpha.0.96" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\plugins\Weikio.ApiFramework.Plugins.HealthCheck\Weikio.ApiFramework.Plugins.HealthCheck.csproj" />
+  </ItemGroup>
+</Project>
