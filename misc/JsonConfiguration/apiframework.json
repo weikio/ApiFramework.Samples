@@ -3,17 +3,17 @@
     "Apis": [
       {
         "Name": "Weikio.ApiFramework.Plugins.SqlServer",
-        "Version": "1.2.1-alpha.0.1"
+        "Version": "2.2.0"
       },
       {
         "Name": "Weikio.ApiFramework.Plugins.OpenApi",
-        "Version": "1.0.0-beta.1"
+        "Version": "1.0.0"
       }
     ],
     "Endpoints": {
       "/adventures": {
         "Api": "Weikio.ApiFramework.Plugins.SqlServer",
-        "ApiVersion": "1.1.0.0",
+        "ApiVersion": "2.2.0.0",
         "Configuration": {
           "ConnectionString": "Server=tcp:adafydevtestdb001.database.windows.net,1433;User ID=docs;Password=3h1@*6PXrldU4F95;Integrated Security=false;Initial Catalog=adafyweikiodevtestdb001;",
           "Tables": [
