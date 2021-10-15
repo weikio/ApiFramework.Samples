@@ -16,6 +16,8 @@ This repository contains the following samples:
 
 #### [API Factory](https://github.com/weikio/ApiFramework.Samples/tree/main/howtos/4_ApiFactory)
 
+#### [Runtime Changes using Blazor UI](https://github.com/weikio/ApiFramework.Samples/tree/main/misc/RunTime)
+
 #### [JSON Configuration](https://github.com/weikio/ApiFramework.Samples/tree/main/misc/JsonConfiguration)
 
 #### [Health Checks](https://github.com/weikio/ApiFramework.Samples/tree/main/misc/HealthCheck)
