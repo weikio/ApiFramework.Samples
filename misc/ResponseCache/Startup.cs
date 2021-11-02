@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Weikio.ApiFramework.AspNetCore.StarterKit;
 using Weikio.ApiFramework.ResponceCache;
 
 namespace Weikio.ApiFramework.Samples.ResponseCache
@@ -17,7 +16,7 @@ namespace Weikio.ApiFramework.Samples.ResponseCache
             services.AddControllers();
 
             // Api Framework endpoint caching configuration is defined in the apiframework.json
-            services.AddApiFrameworkStarterKit(options => options.AutoResolveApis = true)
+            services.AddApiFramework(options => options.AutoResolveApis = true)
                 .AddApiFrameworkResponseCache();
         }
 
