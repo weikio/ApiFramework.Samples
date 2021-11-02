@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
-using Weikio.ApiFramework.AspNetCore.StarterKit;
 
 namespace Weikio.ApiFramework.Samples.NoConfiguration
 {
@@ -10,7 +9,7 @@ namespace Weikio.ApiFramework.Samples.NoConfiguration
         {
             services.AddControllers();
 
-            services.AddApiFrameworkStarterKit(options =>
+            services.AddApiFramework(options =>
             {
                 options.AutoResolveApis = true;
                 options.AutoResolveEndpoints = true;
