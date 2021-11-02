@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Weikio.ApiFramework.AspNetCore.StarterKit;
 
 namespace Weikio.ApiFramework.Samples.JsonConfiguration
 {
@@ -20,7 +19,7 @@ namespace Weikio.ApiFramework.Samples.JsonConfiguration
         {
             services.AddControllers();
             
-            services.AddApiFrameworkStarterKit();
+            services.AddApiFramework();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
