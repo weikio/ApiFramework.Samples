@@ -10,7 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Weikio.ApiFramework.AspNetCore.StarterKit;
+using Weikio.ApiFramework;
 
 namespace HealthCheck
 {
@@ -28,7 +28,7 @@ namespace HealthCheck
         {
             services.AddControllers();
 
-            services.AddApiFrameworkStarterKit(options =>
+            services.AddApiFramework(options =>
             {
                 options.AutoResolveApis = true;
                 options.AutoResolveEndpoints = true;
