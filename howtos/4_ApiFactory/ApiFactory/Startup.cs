@@ -27,7 +27,7 @@ namespace ApiFactory
         {
             services.AddControllers();
 
-            services.AddApiFramework()
+            services.AddApiFrameworkStarterKit()
                 .AddApi<CalcApiFactory>()
                 .AddEndpoint("/sumcalc", "ApiFactory.CalcApiFactory", new CalcConfiguration()
                 {
