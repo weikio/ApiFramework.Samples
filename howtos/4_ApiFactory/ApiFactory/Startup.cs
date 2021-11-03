@@ -7,8 +7,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Weikio.ApiFramework;
 using Weikio.ApiFramework.AspNetCore;
-using Weikio.ApiFramework.AspNetCore.StarterKit;
 using Weikio.ApiFramework.Core.Extensions;
 
 namespace ApiFactory
@@ -27,7 +27,7 @@ namespace ApiFactory
         {
             services.AddControllers();
 
-            services.AddApiFrameworkStarterKit()
+            services.AddApiFramework()
                 .AddApi<CalcApiFactory>()
                 .AddEndpoint("/sumcalc", "ApiFactory.CalcApiFactory", new CalcConfiguration()
                 {
