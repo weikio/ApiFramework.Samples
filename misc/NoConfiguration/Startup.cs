@@ -9,7 +9,7 @@ namespace Weikio.ApiFramework.Samples.NoConfiguration
         {
             services.AddControllers();
 
-            services.AddApiFramework(options =>
+            services.AddApiFrameworkStarterKit(options =>
             {
                 options.AutoResolveApis = true;
                 options.AutoResolveEndpoints = true;
