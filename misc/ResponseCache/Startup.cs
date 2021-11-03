@@ -16,7 +16,7 @@ namespace Weikio.ApiFramework.Samples.ResponseCache
             services.AddControllers();
 
             // Api Framework endpoint caching configuration is defined in the apiframework.json
-            services.AddApiFramework(options => options.AutoResolveApis = true)
+            services.AddApiFrameworkStarterKit(options => options.AutoResolveApis = true)
                 .AddApiFrameworkResponseCache();
         }
 
