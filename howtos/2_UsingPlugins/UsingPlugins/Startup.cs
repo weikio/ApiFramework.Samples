@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Weikio.ApiFramework.AspNetCore.StarterKit;
+using Weikio.ApiFramework;
 using Weikio.ApiFramework.Plugins.OpenApi;
 using Weikio.ApiFramework.Plugins.SqlServer;
 using Weikio.ApiFramework.Plugins.SqlServer.Configuration;
