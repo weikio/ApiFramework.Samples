@@ -4,7 +4,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Weikio.ApiFramework.AspNetCore;
-using Weikio.ApiFramework.AspNetCore.StarterKit;
 using Weikio.ApiFramework.Core.AsyncStream;
 
 namespace Weikio.ApiFramework.Samples.AsyncJsonStream
@@ -34,7 +33,7 @@ namespace Weikio.ApiFramework.Samples.AsyncJsonStream
                 options.BufferSizeThresholdInKB = 1024;
             });
             
-            services.AddApiFrameworkStarterKit()
+            services.AddApiFramework()
                 .AddApi<WeatherApi>("/myweather", new WeatherConfiguration());
         }
 
