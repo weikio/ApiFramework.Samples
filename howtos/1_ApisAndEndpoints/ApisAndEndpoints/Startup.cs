@@ -33,7 +33,7 @@ namespace ApisAndEndpoints
                 return $"Hello {name}!";
             };
 
-            services.AddApiFramework()
+            services.AddApiFrameworkStarterKit()
                 .AddApi<CalculatorApi>()
                 .AddEndpoint<CalculatorApi>("/mycal", 15)
                 .AddEndpoint<CalculatorApi>("/second", 100)
