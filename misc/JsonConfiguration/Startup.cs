@@ -19,7 +19,7 @@ namespace Weikio.ApiFramework.Samples.JsonConfiguration
         {
             services.AddControllers();
             
-            services.AddApiFramework();
+            services.AddApiFrameworkStarterKit();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
