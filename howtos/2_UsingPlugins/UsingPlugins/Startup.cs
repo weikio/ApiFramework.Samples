@@ -25,7 +25,7 @@ namespace UsingPlugins
         {
             services.AddControllers();
 
-            services.AddApiFramework()
+            services.AddApiFrameworkStarterKit()
                 .AddSqlServer("/adventures",
                     new SqlServerOptions()
                     {
