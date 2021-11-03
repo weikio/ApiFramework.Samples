@@ -5,9 +5,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
+using Weikio.ApiFramework;
 using Weikio.ApiFramework.ApiProviders.PluginFramework;
 using Weikio.ApiFramework.AspNetCore;
-using Weikio.ApiFramework.AspNetCore.StarterKit;
 using Weikio.ApiFramework.Core.Extensions;
 
 namespace ApisAndEndpoints
