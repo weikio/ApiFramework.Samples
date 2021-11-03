@@ -19,7 +19,7 @@ namespace Weikio.ApiFramework.Samples.DependencyConflict
             services.AddMvc()
                 .SetCompatibilityVersion(CompatibilityVersion.Latest);
 
-            services.AddApiFramework()
+            services.AddApiFrameworkStarterKit()
                 .AddApi(
                     @"..\..\Plugins\Weikio.ApiFramework.Plugins.Logger\bin\Debug\netstandard2.0\Weikio.ApiFramework.Plugins.Logger.dll")
                 .AddApi(
