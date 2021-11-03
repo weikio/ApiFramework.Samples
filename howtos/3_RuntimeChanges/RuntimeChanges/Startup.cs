@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Weikio.ApiFramework.AspNetCore.StarterKit;
+using Weikio.ApiFramework;
 
 namespace UsingPlugins
 {
@@ -21,7 +21,7 @@ namespace UsingPlugins
         {
             services.AddControllers();
 
-            services.AddApiFrameworkStarterKit();
+            services.AddApiFramework();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
