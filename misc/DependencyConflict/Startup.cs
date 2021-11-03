@@ -6,7 +6,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Weikio.ApiFramework.AspNetCore;
-using Weikio.ApiFramework.AspNetCore.StarterKit;
 using Weikio.ApiFramework.Core.Extensions;
 
 namespace Weikio.ApiFramework.Samples.DependencyConflict
