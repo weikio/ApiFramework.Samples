@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
-using Weikio.ApiFramework.AspNetCore.StarterKit;
 
 namespace Weikio.ApiFramework.Samples.NoConfiguration
 {
