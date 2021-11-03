@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Weikio.ApiFramework.AspNetCore.Starterkit" Version="1.0.0-alpha.0.82" />
-    <PackageReference Include="Weikio.ApiFramework.Plugins.OpenApi" Version="1.0.0-alpha.0.23" />
-    <PackageReference Include="Weikio.ApiFramework.Plugins.SqlServer" Version="1.1.0-alpha.0.8" />
+    <PackageReference Include="Weikio.ApiFramework.AspNetCore.Starterkit" Version="1.1.0" />
+    <PackageReference Include="Weikio.ApiFramework.Plugins.OpenApi" Version="1.0.0" />
+    <PackageReference Include="Weikio.ApiFramework.Plugins.SqlServer" Version="2.2.0" />
   </ItemGroup>
 
 
